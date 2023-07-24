@@ -85,7 +85,7 @@ body {
 
 .header {
 
-    background: url(../../img/bg-01-free-img.jpg) no-repeat;
+    background: url(../img/bg-01-free-img.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -458,7 +458,7 @@ body {
 
 .about-main {
 
-    background: url(../../img/estate-living-window.jpg) no-repeat;
+    background: url(../img/estate-living-window.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     padding-top: 100px;
@@ -730,7 +730,7 @@ body {
 
 .where-main {
 
-    background: url(../../img/estate-pool.jpg) no-repeat;
+    background: url(../img/estate-pool.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     margin-top: 150px;
@@ -1002,7 +1002,7 @@ body {
 
 .abt-header {
 
-    background: url(../../img/bg-04-free-img.jpg) no-repeat;
+    background: url(../img/bg-04-free-img.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -1220,7 +1220,7 @@ body {
     margin-top: 100px;
     padding-top: 100px;
     padding-bottom: 100px;
-    background: url(../../img/estate-window-sofa.jpg) no-repeat;
+    background: url(../img/estate-window-sofa.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -1285,7 +1285,7 @@ body {
 
 .propertie-header {
 
-    background: url(../../img/estate-living-sofa.jpg) no-repeat;
+    background: url(../img/estate-living-sofa.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 
@@ -1438,7 +1438,7 @@ body {
 
 .agent-header {
 
-    background: url(../../img/estate-living-door.jpg) no-repeat;
+    background: url(../img/estate-living-door.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 
@@ -1655,7 +1655,7 @@ body {
 
 .service-header {
 
-    background: url(../../img/estate-sofa.jpg) no-repeat;
+    background: url(../img/estate-sofa.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 
@@ -1807,7 +1807,7 @@ body {
 
 .contact-header {
 
-    background: url(../../img/modern-apartment.jpg) no-repeat;
+    background: url(../img/modern-apartment.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 
