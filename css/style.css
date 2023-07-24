@@ -1,0 +1,4816 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+::selection {
+    background-color: #46237a;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+.header {
+
+    background: url(../../img/bg-01-free-img.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.header::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #664786;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.header .logo img {
+
+    width: 180px;
+}
+
+
+.header .nav ul {
+    list-style: none;
+}
+
+.header .nav ul li {
+
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.header .nav ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.header .number-main {
+
+    display: flex;
+    align-items: center;
+    background: #f6bc98;
+    color: #fff;
+    padding: 10px 20px;
+    width: 250px;
+    margin-top: 80px;
+
+}
+
+.header .number-main span {
+
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.header .number-main h3 {
+
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding-left: 8px;
+}
+
+.header .find h1 {
+
+    font-size: 120px;
+    line-height: 1.3;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.header .find p {
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #fff;
+    max-width: 558px;
+    line-height: 1.5;
+    padding-bottom: 25px;
+}
+
+.header .find .btn {
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    padding: 14px 28px;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+
+    transition: .2s linear;
+}
+
+.header .find .btn:hover {
+
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.header .need-main {
+
+    background: #f6f6f6;
+    padding: 60px 30px;
+    margin-top: 70px;
+}
+
+.header .need-main h4 {
+
+    color: #46237a;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+
+}
+
+.header .need-main h2 {
+
+    color: #46237a;
+    font-size: 35px;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.header .need-main input[ type=text] {
+
+    color: #666;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    background: #fafafa;
+    margin-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 12px;
+    width: 320px;
+    outline: none;
+    transition: .2s linear;
+
+}
+
+.header .need-main input[ type=text]:focus {
+
+    border: 1px dotted black;
+}
+
+.header .need-main input[ type=email] {
+
+    color: #666;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    background: #fafafa;
+    margin-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 12px;
+    width: 320px;
+    outline: none;
+    transition: .2s linear;
+
+}
+
+.header .need-main input[ type=email]:focus {
+
+    border: 1px dotted black;
+}
+
+.header .need-main textarea {
+
+    color: #666;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    background: #fafafa;
+    margin-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 12px;
+    width: 320px;
+    height: 100px;
+    overflow: auto;
+    resize: both;
+    outline: none;
+    transition: .2s linear;
+}
+
+.header .need-main textarea:focus {
+
+    border: 1px dotted black;
+}
+
+.header .need-main input[ type=submit] {
+    background: #673da6;
+
+    color: #f6f6f6;
+    padding: 15px 38px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: .2s linear;
+
+}
+
+.header .need-main input[ type=submit]:hover {
+
+    background: #46237a;
+}
+
+
+.feacture h5 {
+
+    text-align: center;
+    font-size: 20px;
+    color: #46237a;
+    font-weight: 400;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.feacture h1 {
+
+    text-align: center;
+    color: #46237a;
+    font-size: 80px;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    padding-bottom: 10px;
+    position: relative;
+
+
+}
+
+
+.feacture h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #F6BC96;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.for-rent img {
+    cursor: pointer;
+    width: 289px;
+    height: 194px;
+    margin-top: 60px;
+}
+
+.for-rent h4 {
+
+    background: #f6bc98;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    width: 150px;
+    margin-left: 30px;
+    transform: translateY(-20px);
+}
+
+.residential-main {
+
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.residential-main span {
+
+    font-size: 17px;
+    color: #54595F;
+}
+
+.residential-main h5 {
+    color: #54595F;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding-left: 2px;
+
+}
+
+.modern {
+
+    padding-left: 30px;
+}
+
+.modern h1 {
+
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #46237a;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.modern h2 {
+
+    color: #46237a;
+    font-size: 25px;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+}
+
+.modern h3 {
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding-top: 8px;
+    color: #7A7A7A;
+}
+
+.for-rent-background img {
+    cursor: pointer;
+    width: 289px;
+    height: 194px;
+    margin-top: 60px;
+}
+
+.for-rent-background h4 {
+
+    background: #46237a;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    width: 150px;
+    margin-left: 30px;
+    transform: translateY(-20px);
+}
+
+.about-main {
+
+    background: url(../../img/estate-living-window.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.about-main::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #664786;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.about-main .about h5 {
+
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.about-main .about h1 {
+
+    font-size: 80px;
+    color: #fff;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.about-main .about h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #F6BC96;
+    width: 50px;
+}
+
+.about-main .about h4 {
+
+    font-size: 25px;
+    line-height: 1.2;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    max-width: 514px;
+}
+
+.about-main .about p {
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.5;
+    max-width: 503px;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.about-main .about .btn {
+
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    padding: 15px 34px;
+    border: none;
+    color: #000;
+    background: #fff;
+
+    cursor: pointer;
+    transition: .2s linear;
+
+}
+
+.about-main .about .btn:hover {
+
+    background: transparent;
+    color: #fff;
+    border: 1px solid #46237a;
+}
+
+.about-main .about img {
+
+    width: 585px;
+    height: 535px;
+
+}
+
+.unique h5 {
+
+    text-align: center;
+    font-size: 20px;
+    color: #46237a;
+    font-weight: 400;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.unique h1 {
+
+    text-align: center;
+    color: #46237a;
+    font-size: 80px;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    padding-bottom: 10px;
+    position: relative;
+
+}
+
+.unique h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #F6BC96;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.commercial img {
+
+    cursor: pointer;
+    width: 386px;
+    height: 257px;
+    margin-top: 60px;
+}
+
+.commercial h4 {
+
+    background: #f6bc98;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    width: 200px;
+    margin-left: 30px;
+    transform: translateY(-20px);
+}
+
+.commercial-building-main {
+
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.commercial-building-main span {
+
+    font-size: 17px;
+    color: #54595F;
+}
+
+.commercial-building-main h5 {
+
+    color: #54595F;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding-left: 2px;
+
+}
+
+.awesome h1 {
+
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #46237a;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.awesome h2 {
+    color: #46237a;
+    font-size: 25px;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.awesome h4 {
+
+    padding-left: 30px;
+    color: #54595F;
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+}
+
+.awesome h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding-top: 8px;
+    color: #7A7A7A;
+    padding-left: 30px;
+}
+
+.awesome .btn {
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 15px 34px;
+    border: none;
+    background: #673da6;
+    margin-left: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.awesome .btn:hover {
+
+    background: #46237a;
+}
+
+.commercial-background img {
+
+    cursor: pointer;
+    width: 386px;
+    height: 257px;
+    margin-top: 60px;
+}
+
+.commercial-background h4 {
+
+    background: #46237a;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    width: 200px;
+    margin-left: 30px;
+    transform: translateY(-20px);
+}
+
+.where-main {
+
+    background: url(../../img/estate-pool.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.where-main::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #664786;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.where-main .where-content h5 {
+
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+}
+
+.where-main .where-content h1 {
+
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-bottom: 20px;
+    font-weight: 400;
+    position: relative;
+
+}
+
+.where-main .where-content h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #46237a;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.appartment {
+
+    text-align: center;
+
+}
+
+.appartment img {
+
+    margin-top: 50px;
+}
+
+.appartment h2 {
+
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+
+}
+
+.appartment h2::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #fff;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.appartment p {
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #fff;
+    line-height: 1.5;
+    max-width: 323px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.appartment .btn {
+
+    font-size: 16px;
+    padding: 15px 38px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    border: none;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s linear;
+
+}
+
+.appartment .btn:hover {
+
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.trusted h5 {
+
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #46237a;
+    font-size: 20px;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+}
+
+.middle-logo img {
+
+    width: 150px;
+}
+
+.mobile-main {
+
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.mobile-main span {
+
+    font-size: 30px;
+    color: #f6bc98;
+}
+
+.mobile-main h2 {
+
+    padding-left: 2px;
+    color: #f6bc98;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+.let-find {
+    text-align: center;
+}
+
+.let-find h1 {
+
+    font-size: 80px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    color: #46237a;
+    position: relative;
+}
+
+.let-find h1::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #f6bc98;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.let-find p {
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+
+
+    color: #414042;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 562px;
+    padding-top: 20px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+
+.let-find .btn {
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 15px 34px;
+    border: none;
+    background: #673da6;
+
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.let-find .btn:hover {
+
+    background: #46237a;
+}
+
+.footer-main {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+
+.footer-main .footer-left p {
+
+    color: #0c0d0d;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.footer-main .footer-right p {
+
+    color: #0c0d0d;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+
+/* ====================================================== Style of About ==================================================== */
+/* ====================================================== Style of About ==================================================== */
+
+
+.abt-header {
+
+    background: url(../../img/bg-04-free-img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 125px;
+}
+
+.abt-header::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #664786;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.abt-header .logo img {
+
+    width: 180px;
+}
+
+
+.abt-header .nav ul {
+    list-style: none;
+}
+
+.abt-header .nav ul li {
+
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.abt-header .nav ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.abt-header .abt-header-content h1 {
+
+    color: #fff;
+    font-size: 80px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+.abt-header .abt-header-content h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #F6BC96;
+    width: 50px;
+}
+
+
+.abt-our-content h5 {
+
+    color: #46237a;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+}
+
+.abt-our-content h1 {
+
+    font-size: 80px;
+    padding-bottom: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    color: #46237a;
+    text-align: center;
+    position: relative;
+
+}
+
+.abt-our-content h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #F6BC96;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.global h2 {
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #46237a;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+}
+
+.global h4 {
+
+    color: #46237a;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    max-width: 521px;
+}
+
+.global p {
+
+    color: #414042;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.5;
+    max-width: 521px;
+}
+
+.responsibility h2 {
+
+    padding-top: 50px;
+
+    font-size: 30px;
+    color: #46237a;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+}
+
+.responsibility p {
+
+    color: #414042;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.5;
+    max-width: 532px;
+    padding-top: 20px;
+}
+
+
+.responsibility img {
+
+    margin-top: 120px;
+    width: 1263px;
+    height: 592px;
+}
+
+
+
+.abt-our-vision h2 {
+
+    color: #46237a;
+    font-size: 30px;
+    padding-top: 100px;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+}
+
+.abt-our-vision p {
+
+    color: #414042;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.5;
+    max-width: 532px;
+    padding-top: 20px;
+
+}
+
+.abt-our-mission h2 {
+
+    color: #46237a;
+    font-size: 30px;
+    padding-top: 100px;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+}
+
+.abt-our-mission p {
+
+    color: #414042;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.5;
+    max-width: 532px;
+    padding-top: 20px;
+}
+
+.abt-appartment-main {
+
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../../img/estate-window-sofa.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+
+.abt-appartment-main::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #664786;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.abt-appartment-main .abt-appartment-sold h1 {
+
+    text-align: center;
+    color: #fff;
+    font-size: 69px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 10px;
+    position: relative;
+
+}
+
+.abt-appartment-main .abt-appartment-sold h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-top: 3px solid #fff;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.abt-appartment-main .abt-appartment-sold h4 {
+
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 5px;
+    color: #fff;
+}
+
+
+
+/* ================================================== Style of Propertie ===================================================== */
+/* ================================================== Style of Propertie ===================================================== */
+
+
+.propertie-header {
+
+    background: url(../../img/estate-living-sofa.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 125px;
+}
+
+.propertie-header::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #664786;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.propertie-header .logo img {
+
+    width: 180px;
+}
+
+
+.propertie-header .nav ul {
+    list-style: none;
+}
+
+.propertie-header .nav ul li {
+
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.propertie-header .nav ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.propertie-header .abt-header-content h1 {
+
+    color: #fff;
+    font-size: 80px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+.propertie-header .abt-header-content h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #F6BC96;
+    width: 50px;
+}
+
+.appartment-find h5 {
+
+    color: #46237a;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+
+}
+
+.appartment-find h1 {
+
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+    font-weight: 400;
+    color: #46237a;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.appartment-find h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #F6BC96;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.appartment-attractive h5 {
+
+    color: #46237a;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 220px;
+    padding-bottom: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+}
+
+.appartment-attractive h1 {
+
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+    font-weight: 400;
+    color: #46237a;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.appartment-attractive h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #F6BC96;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* ======================================== Style of Agent ================================================================ */
+/* ======================================== Style of Agent ================================================================ */
+
+
+.agent-header {
+
+    background: url(../../img/estate-living-door.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 125px;
+}
+
+.agent-header::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #664786;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.agent-header .logo img {
+
+    width: 180px;
+}
+
+
+.agent-header .nav ul {
+    list-style: none;
+}
+
+.agent-header .nav ul li {
+
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.agent-header .nav ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.agent-header .abt-header-content h1 {
+
+    color: #fff;
+    font-size: 80px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+.agent-header .abt-header-content h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #F6BC96;
+    width: 50px;
+}
+
+.agent-top {
+
+    padding-top: 100px;
+}
+
+.agent-top h2 {
+
+    padding-top: 30px;
+    color: #46237a;
+    font-size: 30px;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+
+
+.agent-top h2::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-top: 3px solid #F6BC96;
+    width: 50px;
+}
+
+.agent-top h4 {
+
+    color: #46237a;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    max-width: 706px;
+    line-height: 1.2;
+}
+
+.agent-top p {
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #414042;
+    line-height: 1.5;
+    max-width: 706px;
+}
+
+.agent-chair img {
+
+    margin-top: 70px;
+    width: 388px;
+    height: 388px;
+}
+
+.agent-chair h4 {
+
+    color: #46237a;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+
+.agent-chair h2 {
+
+    color: #46237a;
+    font-size: 35px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.agent-chair p {
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #414042;
+    line-height: 1.5;
+    max-width: 352px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+
+.agent-number-main {
+
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 5px;
+
+}
+
+.agent-number-main span {
+
+    color: #46237a;
+    font-size: 17px;
+}
+
+.agent-number-main h4 {
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #414042;
+    padding-left: 8px;
+}
+
+
+.agent-chair .btn {
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 15px 34px;
+    border: none;
+    background: #673da6;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: .2s linear;
+}
+
+.agent-chair .btn:hover {
+
+    background: #46237a;
+}
+
+
+/* ===================================================== Style of FAQ ========================================================== */
+/* ===================================================== Style of FAQ ========================================================== */
+
+.service-header {
+
+    background: url(../../img/estate-sofa.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 125px;
+}
+
+
+
+.service-header::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #664786;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+
+
+.service-header .logo img {
+
+    width: 180px;
+}
+
+
+
+
+.service-header .nav ul {
+    list-style: none;
+}
+
+
+
+.service-header .nav ul li {
+
+    display: inline-block;
+    padding-right: 25px;
+}
+
+
+
+.service-header .nav ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+
+.service-header .abt-header-content h1 {
+
+    color: #fff;
+    font-size: 80px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+
+
+.service-header .abt-header-content h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #F6BC96;
+    width: 50px;
+}
+
+
+.service-frequently h5 {
+
+    color: #46237a;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 20px;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.service-frequently h1 {
+
+    text-align: center;
+    font-size: 80px;
+    color: #46237a;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.service-frequently h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #F6BC96;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.service-am h4 {
+
+    font-size: 25px;
+    color: #46237a;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 8px;
+}
+
+.service-am p {
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #414042;
+    line-height: 1.5;
+    max-width: 524px;
+}
+
+
+
+
+/* ====================================================== Style of Contact ================================================== */
+/* ====================================================== Style of Contact ================================================== */
+
+
+.contact-header {
+
+    background: url(../../img/modern-apartment.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 125px;
+}
+
+
+
+
+.contact-header::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #664786;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+
+
+
+.contact-header .logo img {
+
+    width: 180px;
+}
+
+
+
+
+
+.contact-header .nav ul {
+    list-style: none;
+}
+
+
+
+
+.contact-header .nav ul li {
+
+    display: inline-block;
+    padding-right: 25px;
+}
+
+
+
+
+.contact-header .nav ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+
+
+.contact-header .abt-header-content h1 {
+
+    color: #fff;
+    font-size: 80px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+
+
+
+.contact-header .abt-header-content h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #F6BC96;
+    width: 50px;
+}
+
+.contact-get h5 {
+
+    color: #46237a;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 20px;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contact-get h1 {
+
+    text-align: center;
+    font-size: 80px;
+    color: #46237a;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.contact-get h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid #F6BC96;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-send h2 {
+
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    color: #46237a;
+}
+
+.contact-send input[ type=text] {
+
+    color: #666;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    background: #fff;
+    padding: 12px;
+    outline: none;
+    width: 480px;
+    margin-bottom: 20px;
+    transition: .2s linear;
+}
+
+.contact-send input[ type=text]:focus {
+
+    border: 1px dotted #000;
+}
+
+.contact-send input[ type=email] {
+
+    color: #666;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    background: #fff;
+    padding: 12px;
+    outline: none;
+    width: 480px;
+    margin-bottom: 20px;
+    transition: .2s linear;
+}
+
+.contact-send input[ type=email]:focus {
+
+    border: 1px dotted #000;
+}
+
+.contact-send textarea {
+
+    color: #666;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    background: #fff;
+    padding: 12px;
+    outline: none;
+    width: 480px;
+    margin-bottom: 20px;
+    overflow: auto;
+    resize: both;
+    height: 120px;
+    transition: .2s linear;
+}
+
+.contact-send textarea:focus {
+
+    border: 1px dotted #000;
+}
+
+.contact-send input[ type=submit] {
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 15px 34px;
+    border: none;
+    background: #673da6;
+
+    cursor: pointer;
+
+    transition: .2s linear;
+}
+
+.contact-send input[ type=submit]:hover {
+
+    background: #46237a;
+}
+
+.contact-info h2 {
+
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    color: #46237a;
+}
+
+.contact-info p {
+
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #414042;
+    line-height: 1.5;
+    max-width: 524px;
+    padding-bottom: 30px;
+}
+
+
+.contact-info-main {
+
+    display: flex;
+    align-items: center;
+}
+
+.contact-info-main span {
+
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.contact-info-main h2 {
+
+    cursor: pointer;
+    color: #46237a;
+    padding-left: 5px;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.contact-info-location-main {
+
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.contact-info-location-main span {
+
+    cursor: pointer;
+    color: #414042;
+    font-size: 17px;
+}
+
+.contact-info-location-main h4 {
+
+    cursor: pointer;
+    padding-left: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #414042;
+}
+
+
+.contact-social h2 {
+
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+    color: #46237a;
+    cursor: pointer;
+}
+
+
+.contact-social span {
+
+
+    color: #46237a;
+    font-size: 20px;
+    padding: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .2s linear;
+
+}
+
+.contact-social .icon-facebook:hover {
+
+    background: #46237a;
+    color: #fff;
+}
+
+.contact-social .icon-twitter:hover {
+
+    background: #46237a;
+    color: #fff;
+}
+
+.contact-social .icon-gplus:hover {
+
+    background: #46237a;
+    color: #fff;
+}
+
+.contact-social .icon-pinterest-circled:hover {
+
+    background: #46237a;
+    color: #fff;
+}
+
+.contact-map iframe {
+
+    width: 1263px;
+    height: 500px;
+    margin-top: 100px;
+}
+
+
+
+/* ================================================== Media queries for Home ====================================================== */
+/* ================================================== Media queries for Home ====================================================== */
+
+@media screen and (max-width:1024px) {
+
+    .container {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .header .logo img {
+        width: 160px;
+        margin-left: 10px;
+    }
+
+    .header .nav ul li a {
+        font-size: 15px;
+    }
+
+    .header .number-main {
+        margin-left: 10px;
+    }
+
+    .header .number-main span {
+
+        font-size: 25px;
+
+    }
+
+    .header .number-main h3 {
+        font-size: 15px;
+    }
+
+    .header .find h1 {
+
+        font-size: 100px;
+        padding-left: 10px;
+        line-height: 1.1;
+        max-width: 609px;
+    }
+
+    .header .find p {
+        padding-left: 10px;
+    }
+
+    .header .find .btn {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .header .need-main {
+        margin-right: 10px;
+    }
+
+    .header .need-main {
+
+        padding: 50px 25px;
+        margin-top: 70px;
+    }
+
+    .header .need-main h2 {
+        font-size: 30px;
+    }
+
+    .header .need-main input[ type=text] {
+
+        font-size: 15px;
+        padding: 10px;
+        width: 266px;
+    }
+
+    .header .need-main input[ type=email] {
+
+        font-size: 15px;
+        padding: 10px;
+        width: 266px;
+    }
+
+    .header .need-main textarea {
+
+        font-size: 15px;
+        padding: 10px;
+        width: 266px;
+        height: 90px;
+    }
+
+    .header .need-main input[ type=submit] {
+
+        padding: 13px 34px;
+        font-size: 15px;
+    }
+
+    .feacture h5 {
+        font-size: 18px;
+        padding-top: 60px;
+        padding-bottom: 15px;
+    }
+
+    .feacture h1 {
+        font-size: 65px;
+
+    }
+
+    .for-rent img {
+        margin-left: 10px;
+        margin-top: 40px;
+        width: 240px;
+        height: 169px;
+    }
+
+
+
+    .for-rent h4 {
+
+        font-size: 18px;
+        padding: 12px;
+        width: 120px;
+        padding: 12px;
+    }
+
+    .residential-main span {
+        font-size: 15px;
+
+    }
+
+    .residential-main h5 {
+
+        font-size: 15px;
+    }
+
+    .modern h1 {
+        font-size: 25px;
+    }
+
+    .modern h2 {
+        font-size: 20px;
+    }
+
+    .modern h3 {
+        font-size: 15px;
+    }
+
+    .for-rent-background img {
+
+        margin-top: 40px;
+        width: 240px;
+        height: 169px;
+        margin-left: 10px;
+    }
+
+    .for-rent-background h4 {
+
+        font-size: 18px;
+        padding: 12px;
+        width: 120px;
+        padding: 12px;
+    }
+
+    .about-main {
+        margin-top: 70px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .about-main .about h5 {
+        font-size: 18px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+    .about-main .about h1 {
+
+        font-size: 70px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+    }
+
+    .about-main .about h1::after {
+
+        width: 45px;
+        left: 10px;
+    }
+
+    .about-main .about h4 {
+        font-size: 22px;
+        padding-left: 10px;
+        max-width: 476px;
+    }
+
+    .about-main .about p {
+        font-size: 15px;
+        padding-left: 10px;
+        max-width: 476px;
+        padding-bottom: 30px;
+
+
+    }
+
+    .about-main .about .btn {
+        font-size: 15px;
+        padding: 13px 30px;
+        margin-left: 10px;
+    }
+
+    .about-main .about img {
+        width: 501px;
+        height: 484px;
+    }
+
+    .unique h5 {
+
+        font-size: 18px;
+        padding-top: 60px;
+        padding-bottom: 15px;
+    }
+
+    .unique h1 {
+
+        font-size: 65px;
+
+    }
+
+    .commercial img {
+        margin-left: 10px;
+        margin-top: 40px;
+        width: 324px;
+        height: 212px;
+    }
+
+    .commercial h4 {
+
+        font-size: 18px;
+        padding: 12px;
+        width: 140px;
+    }
+
+    .commercial-building-main span {
+        font-size: 15px;
+
+    }
+
+    .commercial-building-main h5 {
+
+        font-size: 15px;
+    }
+
+    .awesome h1 {
+
+        font-size: 28px;
+    }
+
+    .awesome h2 {
+        font-size: 20px;
+    }
+
+    .awesome h4 {
+
+        font-size: 17px;
+        padding-top: 15px;
+    }
+
+    .awesome h3 {
+
+        font-size: 15px;
+
+    }
+
+    .awesome .btn {
+
+        font-size: 15px;
+        padding: 12px 30px;
+        margin-top: 20px;
+    }
+
+    .commercial-background img {
+
+        margin-left: 10px;
+        margin-top: 40px;
+        width: 324px;
+        height: 212px;
+    }
+
+    .commercial-background h4 {
+
+        font-size: 18px;
+        padding: 12px;
+        width: 140px;
+    }
+
+
+    .where-main {
+        margin-top: 70px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .where-main .where-content h5 {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .where-main .where-content h1 {
+        font-size: 60px;
+        padding-bottom: 15px;
+
+    }
+
+    .appartment img {
+        width: 50px;
+    }
+
+    .appartment h2 {
+        font-size: 30px;
+
+    }
+
+    .appartment h2::after {
+        width: 40px;
+    }
+
+    .appartment p {
+        font-size: 15px;
+        max-width: 266px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .appartment .btn {
+
+        font-size: 15px;
+        padding: 12px 32px;
+    }
+
+    .trusted h5 {
+
+        font-size: 18px;
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+
+    .middle-logo img {
+        width: 130px;
+    }
+
+    .mobile-main {
+
+        padding-top: 50px;
+    }
+
+    .mobile-main span {
+        font-size: 25px;
+
+    }
+
+    .mobile-main h2 {
+
+        font-size: 25px;
+    }
+
+    .let-find h1 {
+
+        font-size: 44px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
+    .let-find p {
+        font-size: 15px;
+        max-width: 519px;
+    }
+
+    .let-find .btn {
+
+        font-size: 15px;
+        padding: 12px 30px;
+    }
+
+    .footer-main {
+
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+
+    .footer-main .footer-left p {
+
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .footer-main .footer-right p {
+
+        font-size: 15px;
+        padding-right: 10px;
+    }
+}
+
+
+@media screen and (max-width:991px) {
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .header .logo img {
+
+        width: 140px;
+    }
+
+    .header .nav ul li a {
+        font-size: 14px;
+    }
+
+    .header .nav ul li {
+        padding-right: 14px;
+
+    }
+
+    .header .number-main {
+        margin-top: 60px;
+        width: 220px;
+    }
+
+    .header .number-main span {
+        font-size: 20px;
+    }
+
+    .header .number-main h3 {
+        font-size: 14px;
+
+    }
+
+    .header .find h1 {
+
+        font-size: 60px;
+        max-width: 473px;
+    }
+
+    .header .find p {
+        font-size: 15px;
+        max-width: 446px;
+    }
+
+    .header .find .btn {
+        font-size: 14px;
+        padding: 12px 25px;
+    }
+
+
+    .header .need-main {
+        margin-top: 60px;
+
+    }
+
+    .header .need-main h4 {
+        font-size: 18px;
+
+    }
+
+    .header .need-main h2 {
+        font-size: 25px;
+        padding-top: 12px;
+        padding-bottom: 30px;
+    }
+
+    .header .need-main input[ type=text] {
+        font-size: 14px;
+        padding: 8px;
+        width: 197px;
+    }
+
+    .header .need-main input[ type=email] {
+
+        font-size: 14px;
+        padding: 8px;
+        width: 197px;
+    }
+
+    .header .need-main textarea {
+        font-size: 14px;
+        padding: 8px;
+        width: 197px;
+        height: 80px;
+    }
+
+    .header .need-main input[ type=submit] {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .feacture h5 {
+        font-size: 16px;
+        padding-top: 40px;
+        padding-bottom: 12px;
+    }
+
+    .feacture h1 {
+        font-size: 50px;
+    }
+
+    .feacture h1::after {
+        width: 40px;
+    }
+
+    .for-rent img {
+
+        width: 177px;
+        height: 140px;
+    }
+
+    .for-rent h4 {
+
+        font-size: 15px;
+        padding: 12px;
+        width: 100px;
+    }
+
+    .modern h1 {
+        font-size: 18px;
+    }
+
+    .modern h2 {
+        font-size: 17px;
+    }
+
+    .modern h3 {
+        font-size: 14px;
+    }
+
+    .for-rent-background img {
+
+        width: 177px;
+        height: 140px;
+    }
+
+    .for-rent-background h4 {
+
+        font-size: 15px;
+        padding: 12px;
+        width: 100px;
+    }
+
+    .about-main {
+        margin-top: 40px;
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    .about-main .about h5 {
+        font-size: 15px;
+
+        padding-bottom: 15px;
+    }
+
+    .about-main .about h1 {
+        font-size: 55px;
+        padding-bottom: 12px;
+    }
+
+    .about-main .about h4 {
+        font-size: 18px;
+        max-width: 361px;
+        padding-top: 30px;
+    }
+
+    .about-main .about p {
+
+        font-size: 14px;
+        max-width: 361px;
+        padding-bottom: 25px;
+
+    }
+
+    .about-main .about .btn {
+
+        font-size: 14px;
+        padding: 10px 28px;
+    }
+
+    .about-main .about img {
+        width: 375px;
+        height: 429px;
+    }
+
+    .unique h5 {
+
+        font-size: 16px;
+        padding-top: 40px;
+        padding-bottom: 12px;
+    }
+
+    .unique h1 {
+
+        font-size: 50px;
+    }
+
+    .unique h1::after {
+
+        width: 40px;
+    }
+
+    .commercial img {
+
+        width: 242px;
+        height: 161px;
+    }
+
+    .commercial h4 {
+        font-size: 15px;
+        padding: 10px;
+        width: 117px;
+    }
+
+    .commercial-building-main span {
+        font-size: 14px;
+    }
+
+    .commercial-building-main h5 {
+        font-size: 14px;
+    }
+
+    .awesome h1 {
+        font-size: 20px;
+    }
+
+    .awesome h2 {
+        font-size: 16px;
+    }
+
+    .awesome h4 {
+        font-size: 15px;
+
+    }
+
+    .awesome h3 {
+        font-size: 13px;
+    }
+
+    .awesome .btn {
+
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+
+    .commercial-background img {
+
+        width: 242px;
+        height: 161px;
+    }
+
+
+    .commercial-background h4 {
+
+        font-size: 15px;
+        padding: 10px;
+        width: 117px;
+    }
+
+    .where-main {
+        margin-top: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .where-main .where-content h5 {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+
+    .where-main .where-content h1 {
+        font-size: 50px;
+    }
+
+    .where-main .where-content h1::after {
+        width: 40px;
+    }
+
+    .appartment img {
+        margin-top: 40px;
+        width: 40px;
+    }
+
+    .appartment h2 {
+        font-size: 25px;
+    }
+
+    .appartment h2::after {
+        width: 35px;
+    }
+
+    .appartment p {
+        font-size: 14px;
+        max-width: 203px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .appartment .btn {
+        font-size: 14px;
+        padding: 10px 26px;
+    }
+
+    .trusted h5 {
+        font-size: 16px;
+
+        padding-bottom: 10px;
+    }
+
+    .middle-logo img {
+        width: 128px;
+    }
+
+    .mobile-main {
+        padding-top: 20px;
+    }
+
+    .mobile-main span {
+        font-size: 20px;
+    }
+
+    .mobile-main h2 {
+        font-size: 20px;
+    }
+
+    .let-find h1 {
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 12px;
+    }
+
+    .let-find h1::after {
+
+        width: 40px;
+    }
+
+    .let-find p {
+        padding-bottom: 20px;
+
+    }
+
+    .let-find .btn {
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+
+    .footer-main {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    .footer-main .footer-left p {
+
+        font-size: 14px;
+    }
+
+    .footer-main .footer-right p {
+
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+
+    .container {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [ class *="col-"] {
+
+        width: 100%;
+    }
+
+    .header {
+
+        padding-bottom: 40px;
+    }
+
+    .header .logo {
+
+        text-align: center;
+        margin-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .header .nav ul li {
+
+        padding-right: 0;
+        text-align: center;
+        display: block;
+        padding-bottom: 15px;
+    }
+
+    .header .number-main {
+        margin-top: 20px;
+        width: 215px;
+    }
+
+    .header .find h1 {
+        font-size: 35px;
+        max-width: 300px;
+    }
+
+    .header .find p {
+        max-width: 300px;
+        font-size: 14px;
+    }
+
+    .header .need-main {
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+
+    .feacture h1 {
+        font-size: 26px;
+    }
+
+    .feacture h1::after {
+        width: 35px;
+    }
+
+    .for-rent img {
+        margin-top: 30px;
+        width: 300px;
+        height: 220px;
+    }
+
+    .for-rent-background img {
+
+        margin-top: 30px;
+        width: 300px;
+        height: 220px;
+    }
+
+    .about-main {
+
+        padding-bottom: 40px;
+    }
+
+    .about-main .about h1 {
+        font-size: 50px;
+
+    }
+
+    .about-main .about h1::after {
+
+        width: 40px;
+    }
+
+    .about-main .about h4 {
+
+        max-width: 300px;
+    }
+
+    .about-main .about p {
+
+        max-width: 300px;
+    }
+
+    .about-main .about img {
+        margin-left: 10px;
+        width: 300px;
+        margin-top: 30px;
+        height: 380px;
+    }
+
+
+
+    .unique h1 {
+
+        font-size: 26px;
+    }
+
+    .unique h1::after {
+
+        width: 35px;
+    }
+
+    .commercial img {
+
+        margin-top: 30px;
+        width: 300px;
+        height: 220px;
+    }
+
+    .commercial-background img {
+
+        margin-top: 30px;
+        width: 300px;
+        height: 220px;
+    }
+
+    .where-main .where-content h1 {
+        font-size: 25px;
+    }
+
+    .where-main .where-content h1::after {
+        width: 35px;
+    }
+
+    .appartment p {
+        max-width: 300px;
+    }
+
+    .middle-logo img {
+        width: 140px;
+    }
+
+    .trusted h5 {
+
+        padding-bottom: 0;
+    }
+
+    .mobile-mai {
+
+        padding-top: 0;
+    }
+
+    .let-find h1 {
+        font-size: 22px;
+        padding-top: 15px;
+
+    }
+
+    .let-find h1::after {
+        width: 35px;
+    }
+
+    .let-find p {
+        font-size: 14px;
+        max-width: 300px;
+    }
+
+    .footer-main {
+
+        display: block;
+    }
+
+    .footer-main .footer-right p {
+        padding-right: 0;
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+
+}
+
+
+
+/* ====================================================== Media queries for About ================================================= */
+/* ====================================================== Media queries for About ================================================= */
+
+@media screen and (max-width:1024px) {
+
+
+    .container {
+
+        margin: 0 auto;
+        margin: 0 auto;
+    }
+
+
+    .abt-header {
+
+        padding-bottom: 110px;
+    }
+
+    .abt-header .logo img {
+        width: 160px;
+        margin-left: 10px;
+    }
+
+
+    .abt-header .nav ul li a {
+        font-size: 15px;
+    }
+
+
+    .abt-header .abt-header-content h1 {
+
+        font-size: 70px;
+        padding-left: 10px;
+        padding-top: 150px;
+        padding-bottom: 15px;
+    }
+
+    .abt-header .abt-header-content h1::after {
+
+        width: 45px;
+        left: 10px;
+    }
+
+    .abt-our-content h5 {
+
+        font-size: 18px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    .abt-our-content h1 {
+        font-size: 70px;
+        padding-bottom: 15px;
+    }
+
+    .global h2 {
+
+        padding-top: 40px;
+        padding-bottom: 15px;
+        font-size: 25px;
+        padding-left: 10px;
+    }
+
+    .global h4 {
+        font-size: 17px;
+        padding-left: 10px;
+        max-width: 472px;
+    }
+
+    .global p {
+
+        font-size: 15px;
+        padding-left: 10px;
+        max-width: 472px;
+
+    }
+
+    .responsibility h2 {
+
+        padding-top: 40px;
+
+        font-size: 25px;
+
+    }
+
+    .responsibility p {
+
+        font-size: 15px;
+        padding-top: 15px;
+        max-width: 507px;
+    }
+
+    .responsibility img {
+
+        margin-top: 40px;
+        width: 1024px;
+        height: 500px;
+    }
+
+    .abt-our-vision h2 {
+        font-size: 25px;
+        padding-top: 40px;
+        padding-left: 10px;
+    }
+
+    .abt-our-vision p {
+        font-size: 15px;
+        padding-top: 15px;
+        padding-left: 10px;
+        max-width: 472px;
+    }
+
+    .abt-our-mission h2 {
+
+        font-size: 25px;
+        padding-top: 40px;
+        padding-left: 10px;
+    }
+
+
+    .abt-our-mission p {
+
+        font-size: 15px;
+        padding-top: 15px;
+        padding-left: 10px;
+        max-width: 507px;
+    }
+
+    .abt-appartment-main {
+        margin-top: 40px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .abt-appartment-main .abt-appartment-sold h1 {
+
+        font-size: 50px;
+    }
+
+    .abt-appartment-main .abt-appartment-sold h1::after {
+
+        width: 40px;
+    }
+
+    .abt-appartment-main .abt-appartment-sold h4 {
+        font-size: 17px;
+    }
+
+}
+
+
+@media screen and (max-width:991px) {
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .abt-header {
+
+        padding-bottom: 100px;
+    }
+
+
+    .abt-header .logo img {
+
+        width: 140px;
+    }
+
+    .abt-header .nav ul li a {
+        font-size: 14px;
+    }
+
+    .abt-header .nav ul li {
+        padding-right: 14px;
+
+    }
+
+    .abt-header .abt-header-content h1 {
+
+        font-size: 60px;
+        padding-bottom: 12px;
+
+        padding-top: 100px;
+    }
+
+    .abt-header .abt-header-content h1::after {
+        width: 40px;
+    }
+
+    .abt-our-content h5 {
+        font-size: 15px;
+        padding-top: 40px;
+        padding-bottom: 12px;
+    }
+
+    .abt-our-content h1 {
+
+        font-size: 55px;
+        padding-bottom: 12px;
+
+    }
+
+    .abt-our-content h1::after {
+
+        width: 40px;
+    }
+
+    .global h2 {
+
+        font-size: 20px;
+        padding-bottom: 12px;
+    }
+
+    .global h4 {
+
+        font-size: 15px;
+        max-width: 351px;
+    }
+
+    .global p {
+
+        max-width: 351px;
+    }
+
+    .responsibility h2 {
+
+        font-size: 20px;
+
+    }
+
+    .responsibility p {
+        font-size: 14px;
+        padding-top: 12px;
+        max-width: 373px;
+    }
+
+    .responsibility img {
+
+        width: 768px;
+        height: 385px;
+
+    }
+
+    .abt-our-vision h2 {
+
+        font-size: 20px;
+    }
+
+    .abt-our-vision p {
+        padding-top: 12px;
+        font-size: 14px;
+        max-width: 368px;
+    }
+
+    .abt-our-mission h2 {
+
+
+        font-size: 20px;
+    }
+
+    .abt-our-mission p {
+
+        font-size: 14px;
+        padding-top: 12px;
+        max-width: 373px;
+    }
+
+    .abt-appartment-main {
+
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .abt-appartment-main .abt-appartment-sold h1 {
+        font-size: 40px;
+    }
+
+    .abt-appartment-main .abt-appartment-sold h1::after {
+
+        width: 30px;
+    }
+
+    .abt-appartment-main .abt-appartment-sold h4 {
+
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    .container {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [ class *="col-"] {
+
+        width: 100%;
+    }
+
+    .abt-header {
+
+        padding-bottom: 40px;
+    }
+
+    .abt-header .logo {
+
+        text-align: center;
+        margin-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .abt-header .nav ul li {
+
+        padding-right: 0;
+        text-align: center;
+        display: block;
+        padding-bottom: 15px;
+    }
+
+    .abt-header .abt-header-content h1 {
+        font-size: 45px;
+
+        padding-top: 55px;
+    }
+
+    .abt-header .abt-header-content h1::after {
+        width: 35px;
+    }
+
+    .abt-our-content h1 {
+        font-size: 45px;
+
+    }
+
+    .abt-our-content h1::after {
+        width: 35px;
+    }
+
+    .global h4 {
+        max-width: 300px;
+    }
+
+    .global p {
+        max-width: 300px;
+    }
+
+    .responsibility h2 {
+        padding-left: 10px;
+    }
+
+    .responsibility p {
+
+        padding-left: 10px;
+        max-width: 300px;
+    }
+
+    .responsibility img {
+
+        width: 300px;
+        margin-left: 10px;
+        height: 220px;
+    }
+
+    .abt-our-vision p {
+
+        max-width: 300px;
+    }
+
+    .abt-our-mission p {
+        max-width: 300px;
+    }
+
+    .abt-appartment-main {
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .abt-appartment-main .abt-appartment-sold h4 {
+
+        padding-bottom: 30px;
+    }
+
+}
+
+
+
+/* =================================================== Media queries for Propertie ===================================== */
+/* =================================================== Media queries for Propertie ===================================== */
+
+@media screen and (max-width:1024px) {
+
+    .container {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .propertie-header .logo img {
+        width: 160px;
+        margin-left: 10px;
+    }
+
+
+    .propertie-header .nav ul li a {
+        font-size: 15px;
+    }
+
+
+    .propertie-header .abt-header-content h1 {
+
+        font-size: 70px;
+        padding-left: 10px;
+        padding-top: 150px;
+        padding-bottom: 15px;
+    }
+
+    .propertie-header .abt-header-content h1::after {
+
+        width: 45px;
+        left: 10px;
+    }
+
+    .appartment-find h5 {
+        font-size: 17px;
+        padding-top: 40px;
+        padding-bottom: 15px;
+
+    }
+
+    .appartment-find h1 {
+
+        font-size: 60px;
+        padding-bottom: 15px;
+    }
+
+    .appartment-attractive h5 {
+
+        font-size: 17px;
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+
+    .appartment-attractive h1 {
+
+        font-size: 60px;
+        padding-bottom: 15px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:991px) {
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .propertie-header {
+
+        padding-bottom: 100px;
+    }
+
+
+    .propertie-header .logo img {
+
+        width: 140px;
+    }
+
+    .propertie-header .nav ul li a {
+        font-size: 14px;
+    }
+
+    .propertie-header .nav ul li {
+        padding-right: 14px;
+
+    }
+
+    .propertie-header .abt-header-content h1 {
+
+        font-size: 60px;
+        padding-bottom: 12px;
+
+        padding-top: 100px;
+    }
+
+    .propertie-header .abt-header-content h1::after {
+        width: 40px;
+    }
+
+    .appartment-find h5 {
+        font-size: 15px;
+        padding-top: 40px;
+        padding-bottom: 12px;
+    }
+
+    .appartment-find h1 {
+        font-size: 40px;
+        padding-bottom: 12px;
+    }
+
+    .appartment-find h1::after {
+        width: 40px;
+    }
+
+    .appartment-attractive h5 {
+
+        font-size: 15px;
+        padding-top: 40px;
+        padding-bottom: 12px;
+    }
+
+    .appartment-attractive h1 {
+
+        font-size: 40px;
+        padding-bottom: 12px;
+    }
+
+    .appartment-attractive h1::after {
+
+        width: 40px;
+    }
+
+}
+
+
+@media screen and (max-width:767px) {
+
+    .container {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [ class *="col-"] {
+
+        width: 100%;
+    }
+
+    .propertie-header {
+
+        padding-bottom: 40px;
+
+    }
+
+    .propertie-header .logo {
+
+        text-align: center;
+        margin-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .propertie-header .nav ul li {
+
+        padding-right: 0;
+        text-align: center;
+        display: block;
+        padding-bottom: 15px;
+    }
+
+    .propertie-header .abt-header-content h1 {
+        font-size: 45px;
+
+        padding-top: 55px;
+    }
+
+    .propertie-header .abt-header-content h1::after {
+        width: 35px;
+    }
+
+    .appartment-find h1 {
+        font-size: 35px;
+    }
+
+    .appartment-find h1::after {
+        width: 35px;
+    }
+
+    .appartment-attractive h1 {
+
+        font-size: 35px;
+    }
+
+    .appartment-attractive h1::after {
+
+        width: 35px;
+    }
+
+}
+
+
+
+/* ================================================= Media queries for Agents =============================================== */
+/* ================================================= Media queries for Agents =============================================== */
+
+@media screen and (max-width:1024px) {
+
+    .container {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+
+    .agent-header {
+
+        padding-bottom: 110px;
+
+    }
+
+    .agent-header .logo img {
+        width: 160px;
+        margin-left: 10px;
+    }
+
+
+    .agent-header .nav ul li a {
+        font-size: 15px;
+    }
+
+
+    .agent-header .abt-header-content h1 {
+
+        font-size: 70px;
+        padding-left: 10px;
+        padding-top: 150px;
+        padding-bottom: 15px;
+    }
+
+    .agent-header .abt-header-content h1::after {
+
+        width: 45px;
+        left: 10px;
+    }
+
+    .agent-top {
+        padding-top: 60px;
+        padding-left: 10px;
+    }
+
+    .agent-top h2 {
+        padding-top: 20px;
+        font-size: 25px;
+    }
+
+    .agent-top h4 {
+        font-size: 18px;
+    }
+
+    .agent-top p {
+        font-size: 15px;
+    }
+
+    .agent-chair img {
+        margin-top: 40px;
+        margin-left: 10px;
+        width: 324px;
+        height: 320px;
+    }
+
+    .agent-chair h4 {
+        font-size: 17px;
+    }
+
+    .agent-chair h2 {
+        font-size: 28px;
+    }
+
+    .agent-chair p {
+
+        font-size: 15px;
+        max-width: 302px;
+
+    }
+
+    .agent-number-main span {
+        font-size: 15px;
+    }
+
+    .agent-number-main h4 {
+
+        font-size: 15px;
+    }
+
+    .agent-chair .btn {
+
+        font-size: 15px;
+        padding: 12px 30px;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .agent-header {
+
+        padding-bottom: 100px;
+    }
+
+
+    .agent-header .logo img {
+
+        width: 140px;
+    }
+
+    .agent-header .nav ul li a {
+        font-size: 14px;
+    }
+
+    .agent-header .nav ul li {
+        padding-right: 14px;
+
+    }
+
+    .agent-header .abt-header-content h1 {
+
+        font-size: 60px;
+        padding-bottom: 12px;
+
+        padding-top: 100px;
+    }
+
+    .agent-header .abt-header-content h1::after {
+        width: 40px;
+    }
+
+    .agent-top {
+        padding-top: 40px;
+    }
+
+    .agent-top h2 {
+        padding-top: 15px;
+        font-size: 22px;
+    }
+
+    .agent-top h2::after {
+
+        width: 40px;
+    }
+
+    .agent-top h4 {
+        font-size: 16px;
+        max-width: 583px;
+    }
+
+    .agent-top p {
+
+        max-width: 583px;
+    }
+
+    .agent-chair img {
+
+        width: 238px;
+        height: 240px;
+    }
+
+    .agent-chair h4 {
+
+        font-size: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .agent-chair h2 {
+        font-size: 24px;
+    }
+
+    .agent-chair p {
+        font-size: 14px;
+        max-width: 247px;
+    }
+
+    .agent-number-main span {
+
+        font-size: 14px;
+    }
+
+    .agent-number-main h4 {
+
+        font-size: 14px;
+    }
+
+    .agent-chair .btn {
+        font-size: 14px;
+        padding: 10px 27px;
+        margin-top: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:767px) {
+
+    .container {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [ class *="col-"] {
+
+        width: 100%;
+    }
+
+    .agent-header {
+
+        padding-bottom: 40px;
+
+    }
+
+    .agent-header .logo {
+
+        text-align: center;
+        margin-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .agent-header .nav ul li {
+
+        padding-right: 0;
+        text-align: center;
+        display: block;
+        padding-bottom: 15px;
+    }
+
+    .agent-header .abt-header-content h1 {
+        font-size: 45px;
+
+        padding-top: 55px;
+    }
+
+    .agent-header .abt-header-content h1::after {
+        width: 35px;
+    }
+
+    .agent-top h2 {
+
+        font-size: 19px;
+        max-width: 300px;
+    }
+
+    .agent-top h4 {
+
+        max-width: 300px;
+    }
+
+    .agent-top p {
+
+        max-width: 300px;
+    }
+
+    .agent-chair img {
+
+        width: 300px;
+        height: 280px;
+    }
+
+}
+
+
+
+/* ======================================================== Media queries for FAQ ========================================== */
+/* ======================================================== Media queries for FAQ ========================================== */
+
+@media screen and (max-width:1024px) {
+
+    .container {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .service-header .logo img {
+        width: 160px;
+        margin-left: 10px;
+    }
+
+
+    .service-header .nav ul li a {
+        font-size: 15px;
+    }
+
+
+    .service-header .abt-header-content h1 {
+
+        font-size: 70px;
+        padding-left: 10px;
+        padding-top: 150px;
+        padding-bottom: 15px;
+    }
+
+    .service-header .abt-header-content h1::after {
+
+        width: 45px;
+        left: 10px;
+    }
+
+    .service-frequently h5 {
+
+        font-size: 17px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    .service-frequently h1 {
+
+        font-size: 60px;
+        padding-bottom: 15px;
+    }
+
+    .service-frequently h1::after {
+
+        width: 40px;
+    }
+
+    .service-am h4 {
+
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .service-am p {
+        padding-left: 10px;
+        font-size: 15px;
+        max-width: 495px;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .service-header {
+
+        padding-bottom: 100px;
+    }
+
+
+    .service-header .logo img {
+
+        width: 140px;
+    }
+
+    .service-header .nav ul li a {
+        font-size: 14px;
+    }
+
+    .service-header .nav ul li {
+        padding-right: 14px;
+
+    }
+
+    .service-header .abt-header-content h1 {
+
+        font-size: 60px;
+        padding-bottom: 12px;
+
+        padding-top: 100px;
+    }
+
+    .service-header .abt-header-content h1::after {
+        width: 40px;
+    }
+
+    .service-frequently h5 {
+
+        padding-top: 40px;
+        padding-bottom: 12px;
+    }
+
+    .service-frequently h1 {
+        font-size: 40px;
+        padding-bottom: 12px;
+    }
+
+    .service-frequently h1::after {
+        width: 30px;
+    }
+
+    .service-am h4 {
+        font-size: 17px;
+
+    }
+
+    .service-am p {
+
+        font-size: 14px;
+        max-width: 371px;
+    }
+
+
+}
+
+
+@media screen and (max-width:767px) {
+
+    .container {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [ class *="col-"] {
+
+        width: 100%;
+    }
+
+    .service-header {
+
+        padding-bottom: 40px;
+
+    }
+
+    .service-header .logo {
+
+        text-align: center;
+        margin-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .service-header .nav ul li {
+
+        padding-right: 0;
+        text-align: center;
+        display: block;
+        padding-bottom: 15px;
+    }
+
+    .service-header .abt-header-content h1 {
+        font-size: 45px;
+
+        padding-top: 55px;
+    }
+
+    .service-header .abt-header-content h1::after {
+        width: 35px;
+    }
+
+    .service-frequently h1 {
+        font-size: 30px;
+    }
+
+    .service-am h4 {
+        padding-top: 30px;
+    }
+
+    .service-am p {
+
+        max-width: 300px;
+    }
+}
+
+
+
+/* =========================================== Media queries for contact ================================================== */
+/* =========================================== Media queries for contact ================================================== */
+
+
+@media screen and (max-width:1024px) {
+
+    .container {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+
+    .contact-header {
+
+        padding-bottom: 110px;
+
+    }
+
+    .contact-header .logo img {
+        width: 160px;
+        margin-left: 10px;
+    }
+
+
+    .contact-header .nav ul li a {
+        font-size: 15px;
+    }
+
+
+    .contact-header .abt-header-content h1 {
+
+        font-size: 70px;
+        padding-left: 10px;
+        padding-top: 150px;
+        padding-bottom: 15px;
+    }
+
+    .contact-header .abt-header-content h1::after {
+
+        width: 45px;
+        left: 10px;
+    }
+
+    .contact-get h5 {
+
+        font-size: 17px;
+        padding-top: 40px;
+        padding-bottom: 15px;
+
+    }
+
+    .contact-get h1 {
+
+        padding-bottom: 12px;
+        font-size: 60px;
+
+    }
+
+    .contact-send {
+
+        padding-left: 10px;
+    }
+
+    .contact-send h2 {
+
+        font-size: 25px;
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+
+    .contact-send input[ type=text] {
+
+        font-size: 15px;
+        padding: 10px;
+        width: 378px;
+    }
+
+    .contact-send input[ type=email] {
+
+        font-size: 15px;
+        padding: 10px;
+        width: 378px;
+    }
+
+    .contact-send textarea {
+
+        font-size: 15px;
+        padding: 10px;
+        width: 378px;
+    }
+
+    .contact-send input[ type=submit] {
+
+        font-size: 15px;
+        padding: 12px 27px;
+    }
+
+    .contact-info h2 {
+
+        font-size: 25px;
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+
+    .contact-info p {
+        font-size: 15px;
+        max-width: 491px;
+        padding-bottom: 20px;
+    }
+
+    .contact-info-main span {
+        font-size: 25px;
+
+    }
+
+    .contact-info-main h2 {
+
+        font-size: 25px;
+    }
+
+    .contact-info-location-main span {
+        font-size: 15px;
+
+    }
+
+    .contact-info-location-main h4 {
+
+        font-size: 15px;
+
+    }
+
+    .contact-social h2 {
+
+        font-size: 25px;
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+
+    .contact-social span {
+
+        font-size: 17px;
+        margin-right: 15px;
+    }
+
+    .contact-map iframe {
+
+        margin-top: 40px;
+        width: 1024px;
+        height: 400px;
+    }
+}
+
+
+@media screen and (max-width:991px){
+   
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .contact-header {
+
+        padding-bottom: 100px;
+    }
+
+
+    .contact-header .logo img {
+
+        width: 140px;
+    }
+
+    .contact-header .nav ul li a {
+        font-size: 14px;
+    }
+
+    .contact-header .nav ul li {
+        padding-right: 14px;
+
+    }
+
+    .contact-header .abt-header-content h1 {
+
+        font-size: 60px;
+        padding-bottom: 12px;
+
+        padding-top: 100px;
+    }
+
+    .contact-header .abt-header-content h1::after {
+        width: 40px;
+    }
+
+    .contact-get h5{
+
+        padding-bottom: 12px;
+    }
+
+    .contact-get h1{
+        font-size: 40px;
+    }
+
+    .contact-get h1::after{
+
+        width: 40px;
+    }
+
+    .contact-send h2{
+        font-size: 20px;
+    }
+
+    .contact-send input[ type=text] {
+        font-size: 14px;
+        padding: 8px;
+        width: 289px;
+    }
+
+    .contact-send input[ type=email]{
+         
+        font-size: 14px;
+        padding: 8px;
+        width: 289px;
+    }
+
+    .contact-send textarea{
+         
+        font-size: 14px;
+        padding: 8px;
+        width: 289px;
+        height: 80px;
+    }
+
+    .contact-send input[ type=submit] {
+        font-size: 14px;
+        padding: 10px 23px;
+    }
+
+    .contact-info h2{
+         
+        font-size: 20px;
+        padding-bottom: 12px;
+    }
+
+    .contact-info p{
+
+        font-size: 14px;
+    max-width: 343px;
+    }
+
+    .contact-info-main span {
+        font-size: 20px;
+    }
+
+    .contact-info-main h2{
+         
+        font-size: 20px;
+    }
+
+    .contact-social h2{
+        font-size: 20px;
+    }
+
+    .contact-social span {
+        font-size: 15px;
+        margin-right: 12px;
+    }
+
+    .contact-map iframe{
+
+        width: 768px;
+        height: 320px;
+    }
+
+
+}
+
+@media screen and (max-width:767px){
+
+    .container {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [ class *="col-"] {
+
+        width: 100%;
+    }
+
+    .contact-header {
+
+        padding-bottom: 40px;
+
+    }
+
+    .contact-header .logo {
+
+        text-align: center;
+        margin-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .contact-header .nav ul li {
+
+        padding-right: 0;
+        text-align: center;
+        display: block;
+        padding-bottom: 15px;
+    }
+
+    .contact-header .abt-header-content h1 {
+        font-size: 45px;
+
+        padding-top: 55px;
+    }
+
+    .contact-header .abt-header-content h1::after {
+        width: 35px;
+    }
+
+    .contact-get h1 {
+        font-size: 35px;
+    }
+
+    .contact-get h1::after {
+        width: 35px;
+    }
+
+    .contact-info h2{
+
+        padding-left: 10px;
+    }
+
+    .contact-info p{
+        padding-left: 10px;
+        max-width: 300px;
+    }
+
+    .contact-info-main{
+        padding-left: 10px;
+    }
+
+    .contact-info-location-main{
+        padding-left: 10px;
+    }
+
+    .contact-social h2{
+
+        padding-left: 10px;
+    }
+
+    .contact-social span{
+
+        margin-right: 0;
+        margin-left: 12px;
+    }
+
+    .contact-map iframe{
+
+        width: 320px;
+        height: 350px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?23883638');
+    src: url('../font/fontello.eot?23883638#iefix') format('embedded-opentype'),
+        url('../font/fontello.svg?23883638#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('data:application/octet-stream;base64,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') format('woff'),
+        url('data:application/octet-stream;base64,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') format('truetype');
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.svg?23883638#fontello') format('svg');
+    }
+  }
+  */
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-mobile:before {
+    content: '\e800';
+}
+
+/* '' */
+.icon-home:before {
+    content: '\e801';
+}
+
+/* '' */
+.icon-phone:before {
+    content: '\e802';
+}
+
+/* '' */
+.icon-mail:before {
+    content: '\e803';
+}
+
+/* '' */
+.icon-location:before {
+    content: '\e804';
+}
+
+/* '' */
+.icon-mail-1:before {
+    content: '\e805';
+}
+
+/* '' */
+.icon-commerical-building:before {
+    content: '\e811';
+}
+
+/* '' */
+.icon-twitter:before {
+    content: '\f099';
+}
+
+/* '' */
+.icon-pinterest-circled:before {
+    content: '\f0d2';
+}
+
+/* '' */
+.icon-gplus:before {
+    content: '\f0d5';
+}
+
+/* '' */
+.icon-facebook:before {
+    content: '\f30c';
+}
+
+/* '' */
